@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Saturn",
+        "overview": {
+          "content": "Saturn is the sixth planet from the Sun and the<br> second-largest in the Solar System, after <br>Jupiter. It is a gas giant with an average radius <br>of about nine and a half times that of Earth. It <br>only has one-eighth the average density of <br> Earth.",
+          "source": "https://en.wikipedia.org/wiki/Saturn"
+        },
+        "structure": {
+          "content": "Despite consisting mostly of hydrogen and<br>helium, most of Saturn's mass is not in the gas<br> phase, because hydrogen becomes a<br>non-ideal liquid when the density is above 0.01 <br>g/cm3, which is reached at a radius containing<br> 99.9% of Saturn's mass.",
+          "source": "https://en.wikipedia.org/wiki/Saturn#Internal_structure"
+        },
+        "geology": {
+          "content": "The outer atmosphere of Saturn contains<br> 96.3% molecular hydrogen and 3.25% helium <br>by volume. The planet's most famous feature is<br> its prominent ring system, which is composed<br> mostly of ice particles with a smaller amount of<br> rocky debris and dust.",
+          "source": "https://en.wikipedia.org/wiki/Saturn#Atmosphere"
+        },
+        "rotation": "10.8 Hours",
+        "revolution": "29.46 Years",
+        "radius": "58,232 KM",
+        "temperature": "-138°c",
+        "images": {
+          "planet": "../assets/img/saturn-1.png",
+          "internal": "../assets/img/saturn-2.svg",
+          "geology": "../assets/img/saturn-3.png"
+        }
+      }
+]

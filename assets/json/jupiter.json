@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Jupiter",
+        "overview": {
+          "content": "Jupiter is the fifth planet from the Sun and the <br> largest in the Solar System. It is a gas giant with<br> a mass two and a half times that of all the other <br>planets in the Solar System combined, but less<br> than one-thousandth the mass of the Sun.",
+          "source": "https://en.wikipedia.org/wiki/Jupiter"
+        },
+        "structure": {
+          "content": "When the Juno arrived in 2016, it found that <br> Jupiter has a very diffuse core that mixes into<br> its mantle. A possible cause is an impact from a<br> planet of about ten Earth masses a few million <br>years after Jupiter's formation, which would <br>have disrupted an originally solid Jovian core.",
+          "source": "https://en.wikipedia.org/wiki/Jupiter#Internal_structure"
+        },
+        "geology": {
+          "content": "The best known feature of Jupiter is the Great <br>Red Spot, a persistent anticyclonic storm<br> located 22° south of the equator. It is known to<br> have existed since at least 1831, and possibly <br>since 1665.",
+          "source": "https://en.wikipedia.org/wiki/Jupiter#Great_Red_Spot_and_other_vortices"
+        },
+        "rotation": "9.93 Hours",
+        "revolution": "11.86 Years",
+        "radius": "69,911 KM",
+        "temperature": "-108°c",
+        "images": {
+          "planet": "../assets/img/jupiter-1.png",
+          "internal": "../assets/img/jupiter-2.svg",
+          "geology": "../assets/img/jupiter-3.png"
+        }
+      }
+]

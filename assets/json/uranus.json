@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Uranus",
+        "overview": {
+          "content": "Uranus is the seventh planet from the Sun. Its<br> name is a reference to the Greek god of the<br> sky, Uranus according to Greek mythology,<br> was the great-grandfather of Ares. It has the <br>third-largest planetary radius and <br>fourth-largest planetary mass in the Solar<br> System.",
+          "source": "https://en.wikipedia.org/wiki/Uranus"
+        },
+        "structure": {
+          "content": "The standard model of Uranus's structure is<br> that it consists of three layers: a rocky<br> (silicate/iron–nickel) core in the centre, an icy<br> mantle in the middle and an outer gaseous<br> hydrogen/helium envelope. The core is<br> relatively small, with a mass of only 0.55 Earth <br>masses.",
+          "source": "https://en.wikipedia.org/wiki/Uranus#Internal_structure"
+        },
+        "geology": {
+          "content": "The composition of Uranus's atmosphere is<br> different from its bulk, consisting mainly of<br> molecular hydrogen and helium. <br>The helium molar fraction, i.e. the number of helium atoms<br> per molecule of gas, is 0.15±0.03 in the upper<br> troposphere.",
+          "source": "https://en.wikipedia.org/wiki/Uranus#Atmosphere"
+        },
+        "rotation": "17.2 Hours",
+        "revolution": "84 Years",
+        "radius": "25,362 KM",
+        "temperature": "-195°c",
+        "images": {
+          "planet": "../assets/img/uranus-1.png",
+          "internal": "../assets/img/uranus-2.svg",
+          "geology": "../assets/img/uranus-3.png"
+        }
+      }
+]

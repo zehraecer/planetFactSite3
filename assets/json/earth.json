@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Earth",
+        "overview": {
+          "content": "Third planet from the Sun and the only known<br> planet to harbor life. About 29.2% of Earth's<br> surface is land with remaining 70.8% is <br>covered with water. Earth's distance from the <br>Sun, physical properties and geological history<br> have allowed life to evolve and thrive.",
+          "source": "https://en.wikipedia.org/wiki/Earth"
+        },
+        "structure": {
+          "content": "Earth's interior, like that of the other terrestrial<br> planets, is divided into layers by their chemical<br> or physical (rheological) properties. The outer<br> layer is a chemically distinct silicate solid crust,<br> which is underlain by a highly viscous solid<br> mantle.",
+          "source": "https://en.wikipedia.org/wiki/Earth#Internal_structure"
+        },
+        "geology": {
+          "content": "The total surface area of Earth is about 510<br> million km2. The continental crust consists of<br> lower density material such as the igneous<br> rocks granite and andesite. Less common is<br> basalt, a denser volcanic rock that is the<br> primary constituent of the ocean floors.",
+          "source": "https://en.wikipedia.org/wiki/Earth#Surface"
+        },
+        "rotation": "0.99 Days",
+        "revolution": "365.26 Days",
+        "radius": "6,371 KM",
+        "temperature": "16°c",
+        "images": {
+          "planet": "../assets/img/earth-1.png",
+          "internal": "../assets/img/earth-2.svg",
+          "geology": "../assets/img/earth-3.png"
+        }
+      }
+]
