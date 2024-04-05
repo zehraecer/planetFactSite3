@@ -7,17 +7,16 @@ for (const planet of planets) {
 }
 
 
-async function getData(){
- // console.log(this.dataset.id);
+async function getData() {
+    // console.log(this.dataset.id);
     let element = this.dataset.id
     console.log(element);
     return await getFetch(element)
-    
 }
 
 
 
-async function getFetch(file){
+async function getFetch(file) {
     const response = await fetch(`assets/json/${file}.json`)
     const data = await response.json()
     console.log(data);
@@ -96,40 +95,42 @@ async function getFetch(file){
     const viewOptionThereimg = document.querySelector(".viewOptionThereimg")
     const wikipedia = document.querySelector(".divA")
 
-    for (const viewoption3 of viewoptionsthere) {
-        viewoption3.addEventListener("click" ,  function(){
-            console.log("fkngfkonb");
-            this.parentElement.parentElement.children[1].innerHTML=`${data[0].geology.content}`
-            viewOptionThereimg.style.display="block"
-        })
-    }
-
-    for (const viewoption2 of viewoptionsTwo ) {
-        
-        viewoption2.addEventListener("click" ,  function(){
-            this.parentElement.parentElement.children[1].innerHTML=`${data[0].structure.content}`
-            this.parentElement.parentElement.parentElement.children[0].innerHTML=`
-                    <img src="${data[0].images.internal}" alt="">
-            `;
-            wikipedia.innerHTML=`
-            <a href="${data[0].structure.source}"><span> Source : </span> <span class="underline-style">Wikipedia </span>  </a>
-            `
-        })
-    }
 
     for (const viewoption1 of viewoptionsOne) {
-        viewoption1.addEventListener("click" ,  function(){
+        viewoption1.addEventListener("click", function () {
+            viewOptionThereimg.style.display = "none"
             console.log("fkngfkonb");
-            this.parentElement.parentElement.children[1].innerHTML=`${data[0].overview.content}`
-            this.parentElement.parentElement.parentElement.children[0].innerHTML=`
-                    <img src="${data[0].images.planet}" alt="">
+            this.parentElement.parentElement.children[1].innerHTML = `${data[0].overview.content}`
+            this.parentElement.parentElement.parentElement.children[0].innerHTML = `
+            <img src="${data[0].images.planet}" alt="">
             `;
-            wikipedia.innerHTML=`
+            wikipedia.innerHTML = `
             <a href="${data[0].geology.source}"><span> Source : </span> <span class="underline-style">Wikipedia </span>  </a>
             `
         })
     }
 
+    for (const viewoption2 of viewoptionsTwo) {
+
+        viewoption2.addEventListener("click", function () {
+            viewOptionThereimg.style.display = "none"
+            this.parentElement.parentElement.children[1].innerHTML = `${data[0].structure.content}`
+            this.parentElement.parentElement.parentElement.children[0].innerHTML = `
+            <img src="${data[0].images.internal}" alt="">
+            `;
+            wikipedia.innerHTML = `
+            <a href="${data[0].structure.source}"><span> Source : </span> <span class="underline-style">Wikipedia </span>  </a>
+            `
+        })
+    }
+
+    for (const viewoption3 of viewoptionsthere) {
+        viewoption3.addEventListener("click", function () {
+            console.log("fkngfkonb");
+            viewOptionThereimg.style.display = "block"
+            this.parentElement.parentElement.children[1].innerHTML = `${data[0].geology.content}`
+        })
+    }
 }
 
 // function bindEvents(){

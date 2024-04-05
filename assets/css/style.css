@@ -1,16 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     display: block;
     max-width: 100%;
 }
-a{text-decoration: none;}
 
-body{
+a {
+    text-decoration: none;
+}
+
+body {
     background-color: #070724;
     letter-spacing: -1.0499999523162842px;
     font-family: Antonio;
@@ -19,25 +26,28 @@ body{
 
 }
 
-.container{
+.container {
     max-width: 1110px;
     margin-inline: auto;
 }
-.header{
+
+
+.header {
     display: flex;
     justify-content: space-between;
     padding: 33px 40px 27px 32px;
-    border-bottom: 1px solid rgba(255, 255, 255, 20%) ;
+    border-bottom: 1px solid rgba(255, 255, 255, 20%);
 
 
-    h2{
+    h2 {
         font-size: 28px;
         font-weight: 700;
         line-height: 36px;
         text-align: left;
         color: #fff;
     }
-    a{
+
+    a {
         font-family: Spartan;
         font-size: 11px;
         font-weight: 300;
@@ -49,18 +59,20 @@ body{
 
     }
 }
-.navBar{
+
+.navBar {
     display: flex;
     gap: 33px;
 }
-.hero{
-    margin-top: 90px;
-    display: flex;
-    /* grid-template-columns: repeat(2,1fr); */
-    justify-content: space-between;
-    /* gap: 30px; */
 
-    h1{
+.hero {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-content: space-between; */
+    gap: 80px;
+
+    h1 {
         margin-bottom: 23px;
         margin-top: 126px;
         text-transform: uppercase;
@@ -75,59 +87,67 @@ body{
 
     }
 
-    p{
+    p {
         font-family: Spartan;
         font-size: 14px;
         font-weight: 400;
         line-height: 25px;
         letter-spacing: 0px;
         text-align: left;
-        color:#fff;
+        color: #fff;
         margin-bottom: 24px;
 
 
     }
 
-  a{
+    a {
         font-family: Spartan;
         font-size: 14px;
         font-weight: 700;
         line-height: 25px;
         letter-spacing: 0px;
         text-align: left;
-        color:#fff;
+        color: #fff;
         opacity: 50%;
 
 
 
 
-            span{
-                font-family: Spartan;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 25px;
-                letter-spacing: 0px;
-                text-align: left;
-                color:#fff;
+        span {
+            font-family: Spartan;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 25px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #fff;
 
-            }
+        }
 
-  }
+    }
 }
-.underline-style{
+
+.underline-style {
     text-decoration: underline;
 
 }
+
 /* .hero-right-side{
         margin-right: 165px;
 } */
 
-.hero-left-side{
+.hero-left-side {
+    /* width: 582px;
+    height: 582px; */
     margin-top: 70px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.viewoptions{
-    width: 350px;
+
+.viewoptions {
+    /* width: 350px; */
     display: flex;
     gap: 28px;
     padding: 12px 0px 11px 28px;
@@ -135,46 +155,47 @@ body{
     margin-bottom: 16px;
     margin-top: 39px;
 
-    h4{
+    h4 {
         font-family: Spartan;
         font-size: 12px;
         font-weight: 700;
         line-height: 25px;
         letter-spacing: 2.5714285373687744px;
         text-align: left;
-        color:#fff;
+        color: #fff;
         opacity: 50%;
 
     }
-    span{
+
+    span {
         font-family: Spartan;
         font-size: 12px;
         font-weight: 700;
         line-height: 25px;
         letter-spacing: 2.5714285373687744px;
         text-align: left;
-        color:#fff;
+        color: #fff;
         text-transform: uppercase;
 
 
     }
 }
 
-.footer{
-   display: grid;
-   grid-template-columns: repeat(4,1fr);
-   gap: 30px;
-   margin-bottom: 56px;
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 56px;
 }
 
-.footer-box{
+.footer-box {
 
     width: 255px;
-    border: 1px solid rgba(255, 255, 255, 20%) ;
+    border: 1px solid rgba(255, 255, 255, 20%);
     text-transform: uppercase;
     margin-top: 87px;
-    
-    h6{
+
+    h6 {
         font-family: Spartan;
         font-size: 11px;
         font-weight: 700;
@@ -188,8 +209,8 @@ body{
 
 
     }
-    
-    h1{
+
+    h1 {
         font-family: Antonio;
         font-size: 40px;
         font-weight: 700;
@@ -202,15 +223,18 @@ body{
 
     }
 }
-.viewOptionThereimg{
+
+.viewOptionThereimg {
     position: absolute;
-    bottom:  100px;
-    left: 187px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
 }
-.wikipedia{
+
+.wikipedia {
     display: flex;
 
-    img{
+    img {
         width: 12px;
         height: 12px;
         margin-left: 8px;
@@ -218,7 +242,7 @@ body{
     }
 }
 
-.hero-right-viewoptions div:hover{
+.hero-right-viewoptions div:hover {
     cursor: pointer;
     background: rgba(216, 216, 216, 0.5);
 
