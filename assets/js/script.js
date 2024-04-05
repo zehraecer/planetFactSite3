@@ -2,6 +2,7 @@ const planets = document.querySelectorAll(".planet")
 const container = document.querySelector(".container")
 
 
+
 for (const planet of planets) {
     planet.addEventListener("click", getData)
 }
@@ -23,7 +24,6 @@ async function getFetch(file) {
     container.innerHTML = `
     
   
-    <div class="container">
     <div class="hero">
 
             <div class="hero-left-side">
@@ -84,17 +84,14 @@ async function getFetch(file) {
             </div>
 
     </div>
-</div>
 
     `
-    // bindEvents()
 
     const viewoptionsOne = document.querySelectorAll(".viewoptions-one")
     const viewoptionsTwo = document.querySelectorAll(".viewoptions-two")
     const viewoptionsthere = document.querySelectorAll(".viewoptions-there")
     const viewOptionThereimg = document.querySelector(".viewOptionThereimg")
     const wikipedia = document.querySelector(".divA")
-
 
     for (const viewoption1 of viewoptionsOne) {
         viewoption1.addEventListener("click", function () {
@@ -116,13 +113,15 @@ async function getFetch(file) {
             viewOptionThereimg.style.display = "none"
             this.parentElement.parentElement.children[1].innerHTML = `${data[0].structure.content}`
             this.parentElement.parentElement.parentElement.children[0].innerHTML = `
-            <img src="${data[0].images.internal}" alt="">
+            <img class="internal" src="${data[0].images.internal}" alt="">
             `;
             wikipedia.innerHTML = `
             <a href="${data[0].structure.source}"><span> Source : </span> <span class="underline-style">Wikipedia </span>  </a>
             `
         })
     }
+
+
 
     for (const viewoption3 of viewoptionsthere) {
         viewoption3.addEventListener("click", function () {
@@ -138,16 +137,5 @@ async function getFetch(file) {
 // }
 
 
-// async function getViewOptions(){
-
-//     let element = this.parentElement
-//     console.log(element);
-//     // const data = await getFetch(element)
-//     // console.log(data);
-//     //    console.log(this.parentElement.parentElement.children[1].innerHTML);
-//     //   const viewOptionTwoContent = 
-//     // this.parentElement.parentElement.children[1].innerHTML=`sgdjhgıd`
-//     //   console.log(viewOptionTwoContent);
-//     }
 
 getFetch()
