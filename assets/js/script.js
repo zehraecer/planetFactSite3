@@ -87,49 +87,46 @@ async function getFetch(file) {
 
     `
 
-    const viewoptionsOne = document.querySelectorAll(".viewoptions-one")
-    const viewoptionsTwo = document.querySelectorAll(".viewoptions-two")
-    const viewoptionsthere = document.querySelectorAll(".viewoptions-there")
+    const viewoptionsOne = document.querySelector(".viewoptions-one")
+    const viewoptionsTwo = document.querySelector(".viewoptions-two")
+    const viewoptionsthere = document.querySelector(".viewoptions-there")
     const viewOptionThereimg = document.querySelector(".viewOptionThereimg")
     const wikipedia = document.querySelector(".divA")
+    const heroleftside = document.querySelector(".hero-left-side")
 
-    for (const viewoption1 of viewoptionsOne) {
-        viewoption1.addEventListener("click", function () {
-            viewOptionThereimg.style.display = "none"
-            console.log("fkngfkonb");
-            this.parentElement.parentElement.children[1].innerHTML = `${data[0].overview.content}`
-            this.parentElement.parentElement.parentElement.children[0].innerHTML = `
+    viewoptionsOne.addEventListener("click", function () {
+        console.log("fkngfkonb");
+        this.parentElement.parentElement.children[1].innerHTML = `${data[0].overview.content}`
+        this.parentElement.parentElement.parentElement.children[0].innerHTML = `
             <img src="${data[0].images.planet}" alt="">
             `;
-            wikipedia.innerHTML = `
+        wikipedia.innerHTML = `
             <a href="${data[0].geology.source}"><span> Source : </span> <span class="underline-style">Wikipedia </span>  </a>
             `
-        })
-    }
+    })
 
-    for (const viewoption2 of viewoptionsTwo) {
 
-        viewoption2.addEventListener("click", function () {
-            viewOptionThereimg.style.display = "none"
-            this.parentElement.parentElement.children[1].innerHTML = `${data[0].structure.content}`
-            this.parentElement.parentElement.parentElement.children[0].innerHTML = `
+    viewoptionsTwo.addEventListener("click", function () {
+        this.parentElement.parentElement.children[1].innerHTML = `${data[0].structure.content}`
+        this.parentElement.parentElement.parentElement.children[0].innerHTML = `
             <img class="internal" src="${data[0].images.internal}" alt="">
             `;
-            wikipedia.innerHTML = `
+        wikipedia.innerHTML = `
             <a href="${data[0].structure.source}"><span> Source : </span> <span class="underline-style">Wikipedia </span>  </a>
             `
-        })
-    }
+    })
 
 
 
-    for (const viewoption3 of viewoptionsthere) {
-        viewoption3.addEventListener("click", function () {
-            console.log("fkngfkonb");
-            viewOptionThereimg.style.display = "block"
-            this.parentElement.parentElement.children[1].innerHTML = `${data[0].geology.content}`
-        })
-    }
+    viewoptionsthere.addEventListener("click", function () {
+        console.log("fkngfkonb");
+        viewOptionThereimg.style.display = "block"
+        heroleftside.innerHTML = `
+        <img src="${data[0].images.planet}" alt="">
+        <img class="viewOptionThereimg"  src="${data[0].images.geology}" alt="">
+        `
+        this.parentElement.parentElement.children[1].innerHTML = `${data[0].geology.content}`
+    })
 }
 
 // function bindEvents(){
