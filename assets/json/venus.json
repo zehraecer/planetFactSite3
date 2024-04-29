@@ -1,27 +1,26 @@
 [
-   
-    {
-      "name": "Venus",
-      "overview": {
-        "content": "Venus is the second planet from the Sun. It is <br>named after the Roman goddess of love and <br>beauty. As the brightest natural object in<br> Earth's night sky after the Moon, Venus can cast<br>shadows and can be, on rare occasions, visible<br> to the naked eye in broad daylight.",
-        "source": "https://en.wikipedia.org/wiki/Venus"
-      },
-      "structure": {
-        "content": "The similarity in size and density between <br>Venus and Earth suggests they share a similar <br>internal structure: a core, mantle, and crust. <br>Like that of Earth, Venusian core is most likely<br> at least partially liquid because the two planets <br>have been cooling at about the same rate.",
-        "source": "https://en.wikipedia.org/wiki/Venus#Internal_structure"
-      },
-      "geology": {
-        "content": "Much of the Venusian surface appears to have<br> been shaped by volcanic activity. Venus has<br> several times as many volcanoes as Earth, and<br> it has 167 large volcanoes that are over 100 km <br>(60 mi) across. The only volcanic complex of<br> this size on Earth is the Big Island of Hawaii.",
-        "source": "https://en.wikipedia.org/wiki/Venus#Surface_geology"
-      },
-      "rotation": "243 Days",
-      "revolution": "224.7 Days",
-      "radius": "6,051.8 KM",
-      "temperature": "471°c",
-      "images": {
-        "planet": "../assets/img/venus-1.png",
-        "internal": "../assets/img/venus-2.svg",
-        "geology": "../assets/img/venus-3.png"
-      }
+  {
+    "name": "Venus",
+    "overview": {
+      "content": "Venus is the second planet from the Sun. It is <br>named after the Roman goddess of love and <br>beauty. As the brightest natural object in<br> Earth's night sky after the Moon, Venus can cast<br>shadows and can be, on rare occasions, visible<br> to the naked eye in broad daylight.",
+      "source": "https://en.wikipedia.org/wiki/Venus"
+    },
+    "structure": {
+      "content": "The similarity in size and density between <br>Venus and Earth suggests they share a similar <br>internal structure: a core, mantle, and crust. <br>Like that of Earth, Venusian core is most likely<br> at least partially liquid because the two planets <br>have been cooling at about the same rate.",
+      "source": "https://en.wikipedia.org/wiki/Venus#Internal_structure"
+    },
+    "geology": {
+      "content": "Much of the Venusian surface appears to have<br> been shaped by volcanic activity. Venus has<br> several times as many volcanoes as Earth, and<br> it has 167 large volcanoes that are over 100 km <br>(60 mi) across. The only volcanic complex of<br> this size on Earth is the Big Island of Hawaii.",
+      "source": "https://en.wikipedia.org/wiki/Venus#Surface_geology"
+    },
+    "rotation": "243 Days",
+    "revolution": "224.7 Days",
+    "radius": "6,051.8 KM",
+    "temperature": "471°c",
+    "images": {
+      "planet": "./assets/img/venus-1.png",
+      "internal": "./assets/img/venus-2.svg",
+      "geology": "./assets/img/venus-3.png"
     }
+  }
 ]
