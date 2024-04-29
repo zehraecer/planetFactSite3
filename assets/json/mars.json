@@ -18,9 +18,9 @@
     "radius": "3,389.5 KM",
     "temperature": "-28°c",
     "images": {
-      "planet": "../img/mars-1.png",
-      "internal": "../img/mars-2.svg",
-      "geology": "../img/mars-3.png"
+      "planet": "./img/mars-1.png",
+      "internal": "./img/mars-2.svg",
+      "geology": "./img/mars-3.png"
     }
   }
 ]
