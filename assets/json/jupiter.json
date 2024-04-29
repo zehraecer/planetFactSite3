@@ -18,9 +18,9 @@
     "radius": "69,911 KM",
     "temperature": "-108°c",
     "images": {
-      "planet": "/assets/img/jupiter-1.png",
-      "internal": "/assets/img/jupiter-2.svg",
-      "geology": "/assets/img/jupiter-3.png"
+      "planet": "./assets/img/jupiter-1.png",
+      "internal": "./assets/img/jupiter-2.svg",
+      "geology": "./assets/img/jupiter-3.png"
     }
   }
 ]

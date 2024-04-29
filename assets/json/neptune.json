@@ -18,9 +18,9 @@
     "radius": "24,622 KM",
     "temperature": "-201°c",
     "images": {
-      "planet": "/assets/img/neptune-1.png",
-      "internal": "/assets/img/neptune-2.svg",
-      "geology": "/assets/img/neptune-3.png"
+      "planet": "./assets/img/neptune-1.png",
+      "internal": "./assets/img/neptune-2.svg",
+      "geology": "./assets/img/neptune-3.png"
     }
   }
 ]
