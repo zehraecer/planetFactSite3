@@ -1,26 +1,26 @@
 [
-    {
-        "name": "Mars",
-        "overview": {
-          "content": "Mars is the fourth planet from the <br> Sun and the second-smallest planet in the Solar System,<br> being larger than only Mercury. In English,<br> Mars carries the name of the Roman god of<br> war and is often referred to as the \"Red <br>Planet\".",
-          "source": "https://en.wikipedia.org/wiki/Mars"
-        },
-        "structure": {
-          "content": "Like Earth, Mars has differentiated into a dense<br> metallic core overlaid by less dense materials.<br> Scientists initially determined that the core is at<br> least partially liquid. Current models of its <br>interior imply a core consisting primarily of iron <br>and nickel with about 16–17% sulfur.",
-          "source": "https://en.wikipedia.org/wiki/Mars#Internal_structure"
-        },
-        "geology": {
-          "content": "Mars is a terrestrial planet whose surface<br> consists of minerals containing silicon and <br>oxygen, metals, and other elements that <br>typically make up rock. The surface is primarily <br>composed of tholeiitic basalt, although parts<br> are more silica-rich than typical basalt.",
-          "source": "https://en.wikipedia.org/wiki/Mars#Surface_geology"
-        },
-        "rotation": "1.03 Days",
-        "revolution": "1.88 Years",
-        "radius": "3,389.5 KM",
-        "temperature": "-28°c",
-        "images": {
-          "planet": "../assets/img/mars-1.png",
-          "internal": "../assets/img/mars-2.svg",
-          "geology": "../assets/img/mars-3.png"
-        }
-      }
+  {
+    "name": "Mars",
+    "overview": {
+      "content": "Mars is the fourth planet from the <br> Sun and the second-smallest planet in the Solar System,<br> being larger than only Mercury. In English,<br> Mars carries the name of the Roman god of<br> war and is often referred to as the \"Red <br>Planet\".",
+      "source": "https://en.wikipedia.org/wiki/Mars"
+    },
+    "structure": {
+      "content": "Like Earth, Mars has differentiated into a dense<br> metallic core overlaid by less dense materials.<br> Scientists initially determined that the core is at<br> least partially liquid. Current models of its <br>interior imply a core consisting primarily of iron <br>and nickel with about 16–17% sulfur.",
+      "source": "https://en.wikipedia.org/wiki/Mars#Internal_structure"
+    },
+    "geology": {
+      "content": "Mars is a terrestrial planet whose surface<br> consists of minerals containing silicon and <br>oxygen, metals, and other elements that <br>typically make up rock. The surface is primarily <br>composed of tholeiitic basalt, although parts<br> are more silica-rich than typical basalt.",
+      "source": "https://en.wikipedia.org/wiki/Mars#Surface_geology"
+    },
+    "rotation": "1.03 Days",
+    "revolution": "1.88 Years",
+    "radius": "3,389.5 KM",
+    "temperature": "-28°c",
+    "images": {
+      "planet": "../img/mars-1.png",
+      "internal": "../img/mars-2.svg",
+      "geology": "../img/mars-3.png"
+    }
+  }
 ]

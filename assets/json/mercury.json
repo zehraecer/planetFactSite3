@@ -1,26 +1,26 @@
 [
-    {
-      "name": "Mercury",
-      "overview": {
-        "content": "Mercury is the smallest planet in the Solar <br>System and the closest to the Sun. Its orbit <br>around the Sun takes 87.97 Earth days, the <br>shortest of all the Sun's planets. Mercury is one<br> of four terrestrial planets in the Solar System,<br> and is a rocky body like Earth.",
-        "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"        
-      },
-      "structure": {
-        "content": "Mercury appears to have a solid silicate crust<br> and mantle overlying a solid, iron sulfide outer<br> core layer, a deeper liquid core layer, and a <br>solid inner core. The planet's density is the <br>second highest in the Solar System at 5.427<br> g/cm3 , only slightly less than Earth's density.",
-        "source": "https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure"
-      },
-      "geology": {
-        "content": "Mercury's surface is similar in appearance to<br> that of the Moon, showing extensive mare-like<br> plains and heavy cratering, indicating that it<br> has been geologically inactive for billions of<br> years. It is more heterogeneous than either<br> Mars's or the Moon’s.",
-        "source": "https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology"
-      },
-      "rotation": "58.6 Days",
-      "revolution": "87.97 Days",
-      "radius": "2,439.7 KM",
-      "temperature": "430°c",
-      "images": {
-        "planet": "../assets/img/mercury-1.png",
-          "internal": "../assets/img/mercury-2.svg",
-          "geology": "../assets/img/mercury-3.png"
-      }
+  {
+    "name": "Mercury",
+    "overview": {
+      "content": "Mercury is the smallest planet in the Solar <br>System and the closest to the Sun. Its orbit <br>around the Sun takes 87.97 Earth days, the <br>shortest of all the Sun's planets. Mercury is one<br> of four terrestrial planets in the Solar System,<br> and is a rocky body like Earth.",
+      "source": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+    },
+    "structure": {
+      "content": "Mercury appears to have a solid silicate crust<br> and mantle overlying a solid, iron sulfide outer<br> core layer, a deeper liquid core layer, and a <br>solid inner core. The planet's density is the <br>second highest in the Solar System at 5.427<br> g/cm3 , only slightly less than Earth's density.",
+      "source": "https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure"
+    },
+    "geology": {
+      "content": "Mercury's surface is similar in appearance to<br> that of the Moon, showing extensive mare-like<br> plains and heavy cratering, indicating that it<br> has been geologically inactive for billions of<br> years. It is more heterogeneous than either<br> Mars's or the Moon’s.",
+      "source": "https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology"
+    },
+    "rotation": "58.6 Days",
+    "revolution": "87.97 Days",
+    "radius": "2,439.7 KM",
+    "temperature": "430°c",
+    "images": {
+      "planet": "../assets/img/mercury-1.png",
+      "internal": "../assets/img/mercury-2.svg",
+      "geology": "../assets/img/mercury-3.png"
     }
+  }
 ]
