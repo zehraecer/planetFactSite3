@@ -18,9 +18,9 @@
     "radius": "6,371 KM",
     "temperature": "16°c",
     "images": {
-      "planet": "../img/earth-1.png",
-      "internal": "../img/earth-2.svg",
-      "geology": "../img/earth-3.png"
+      "planet": "/assets/img/earth-1.png",
+      "internal": "/assets/img/earth-2.svg",
+      "geology": "/assets/img/earth-3.png"
     }
   }
 ]

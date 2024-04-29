@@ -4,22 +4,31 @@ const container = document.querySelector(".container")
 
 
 for (const planet of planets) {
-    planet.addEventListener("click", getData)
+    planet.addEventListener("click", listData)
 }
 
 
-async function getData() {
-    // console.log(this.dataset.id);
-    let element = this.dataset.id
-    console.log(element);
-    return await getFetch(element)
-}
+// async function getData() {
+//     // console.log(this.dataset.id);
+//     let element = this.dataset.id
+//     console.log(element);
+//     // return await listData(`assets/json/${file}.json`)
+// }
+
+
 
 
 
 async function getFetch(file) {
     const response = await fetch(`assets/json/${file}.json`)
     const data = await response.json()
+    console.log(data);
+    return data
+
+}
+
+async function listData() {
+    const data = await getFetch(this.dataset.id)
     console.log(data);
     container.innerHTML = `
     
@@ -135,4 +144,3 @@ async function getFetch(file) {
 
 
 
-getFetch()
